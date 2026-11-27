@@ -14,8 +14,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - uses: actions/gradle-setup@v3
-        if: false
       - uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: '8.7'
