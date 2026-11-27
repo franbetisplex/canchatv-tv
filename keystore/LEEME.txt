@@ -1,0 +1,7 @@
+Coloca aqui tu clave de firma con el nombre release.jks.
+
+Creala con:
+
+    keytool -genkeypair -v -keystore keystore/release.jks -alias tvtool -keyalg RSA -keysize 2048 -validity 10000
+
+Este archivo esta excluido del repositorio por .gitignore.
